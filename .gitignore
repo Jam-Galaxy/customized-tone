@@ -21,7 +21,7 @@ test/supports.html
 coverage/
 
 **/build/
-**/dist/*
+**/dist/
 
 examples/scratch.js
 examples/scratch.ts

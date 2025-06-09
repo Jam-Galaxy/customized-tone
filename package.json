@@ -16,7 +16,8 @@
 		"Tone"
 	],
 	"scripts": {
-		"build": "npm run increment && rimraf build && npm run webpack:build",
+		"build": "npm run increment && rimraf build && npm run webpack:build && rimraf dist && npm run build:create-dist",
+		"build:create-dist": "node scripts/create-dist.mjs",
 		"docs": "node scripts/generate_docs.cjs",
 		"docs:json": "typedoc --options \"./scripts/typedoc.json\" --json \"./docs/tone.json\"",
 		"increment": "node scripts/increment_version.cjs",
