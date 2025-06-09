@@ -1,6 +1,7 @@
 {
 	"compileOnSave": true,
 	"compilerOptions": {
+		"declaration": true,
 		"strictNullChecks": true,
 		"target": "ES6",
 		"module": "Node16",
@@ -8,7 +9,7 @@
 		"importHelpers": true,
 		"noUnusedLocals": false,
 		"removeComments": false,
-		"outDir": "./build/esm",
+		"outDir": "./build",
 		"sourceMap": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
