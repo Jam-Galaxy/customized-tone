@@ -14,8 +14,7 @@ const defaults = {
 	output: {
 		path: path.resolve(__dirname, "../build"),
 		filename: "[name].js",
-		library: "Tone",
-		libraryTarget: "umd",
+		libraryTarget: "module",
 		globalObject: "typeof self !== 'undefined' ? self : this",
 	},
 	resolve: {
@@ -33,6 +32,9 @@ const defaults = {
 		],
 	},
 	devtool: "cheap-source-map",
+	experiments: {
+		outputModule: true,
+	}
 };
 
 // /////////////////////////////////////

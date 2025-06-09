@@ -1,4 +1,4 @@
-import * as Tone from "./index.js";
+import Tone from "./index.js";
 import { expect } from "chai";
 import { DestinationClass } from "./core/context/Destination.js";
 import { Context } from "./core/context/Context.js";

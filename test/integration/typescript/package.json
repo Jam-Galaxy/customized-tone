@@ -2,7 +2,7 @@
 	"name": "tone-typescript-test",
 	"dependencies": {
 		"@types/node": "^20.12.8",
-		"tone": "file:../../..",
+		"customized-tone": "file:../../..",
 		"typescript": "^5.4.5"
 	},
 	"scripts": {
