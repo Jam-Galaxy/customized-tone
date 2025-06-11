@@ -15,3 +15,12 @@ The ```build``` folder is required for local development (see scenario 1 in the 
 The ```dist``` folder is a separate package that is ready to be published in Github Npm Packeges Registry and can replace the original project. It contains a lightweight package.json file and the build results.
 
 It is planned that when pushing to the main branch of this repository, CI will execute the ```npm run build``` command and publish the updated package to the Github Npm Packages Registry. After that, this package can be updated inside the studio using npm.
+
+## Usage
+```
+import Tone from "customized-tone";
+```
+or
+```
+import { Transport, Draw } from "customized-tone";
+```
