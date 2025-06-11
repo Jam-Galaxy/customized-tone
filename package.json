@@ -6,7 +6,12 @@
 	"types": "./build/Tone/index.d.ts",
 	"unpkg": "build/Tone.js",
 	"exports": {
-		".": "./build/Tone.js"
+		".": {
+			"import": {
+				"types": "./build/Tone/index.d.ts",
+				"default": "./build/Tone.js"
+			}
+		}
 	},
 	"files": [
 		"README.md",
