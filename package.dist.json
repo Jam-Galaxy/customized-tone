@@ -4,6 +4,11 @@
   "version": "0.0.1",
   "description": "A Web Audio framework for making interactive music in the browser.",
   "exports": {
-    ".": "./build/Tone.js"
+    ".": {
+			"import": {
+				"types": "./build/Tone/index.d.ts",
+				"default": "./build/Tone.js"
+			}
+		}
   }
 }
