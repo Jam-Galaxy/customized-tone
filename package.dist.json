@@ -1,5 +1,5 @@
 {
-  "name": "@jam-galaxy/tone",
+  "name": "@jam-galaxy/customized-tone",
   "private": true,
   "version": "15.1.0",
   "description": "A Web Audio framework for making interactive music in the browser.",
