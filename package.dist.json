@@ -4,12 +4,12 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "description": "A Web Audio framework for making interactive music in the browser.",
+  "main": "./build/Tone.js",
+  "types": "./build/Tone/index.d.ts",
   "exports": {
     ".": {
-			"import": {
-				"types": "./build/Tone/index.d.ts",
-				"default": "./build/Tone.js"
-			}
-		}
+      "types": "./build/Tone/index.d.ts",
+      "default": "./build/Tone.js"
+    }
   }
 }
