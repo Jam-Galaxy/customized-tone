@@ -1,3 +1,5 @@
+> **Status: archived.** A modified build of [Tone.js](https://github.com/Tonejs/Tone.js) made for the Jam Galaxy browser studio. Developed June 2025 to July 2025. Jam Galaxy is no longer active and this code is not maintained. It is published as-is so the work is readable and reusable.
+
 This is modified version of [Tone.js](https://github.com/Tonejs/Tone.js).
 [Original README.md](docs/README.md)
 
